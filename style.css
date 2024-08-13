@@ -1,0 +1,59 @@
+/* ----------- css reset ----------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #CBE4DE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ---- form */
+.login-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #2C3333;
+    width: 25rem;
+    height: 25rem;
+    padding: 2rem;
+}
+/* --- title */
+h1 {
+    padding: 1.5rem;
+    color: white;
+}
+/* ---- btn */
+input {
+    background: none;
+    border: 1px solid #0E8388;
+    border-radius: 15px;
+    padding: 0.5rem;
+    margin: 1rem;
+    text-align: center;
+    cursor: pointer;
+    outline: none;  
+}
+input[type=button] {
+    border: 1px solid #09704e;
+    color: white;
+}
+
+/* ---- style hover btn */
+
+input[type=button]:hover {
+    background-color: #09704e;
+}
+input[type=text]:focus{
+    width: 300px;
+    border: 1px solid #09704e;
+}
+input[type="password"]:focus {
+    width: 300px;
+    border: 1px solid #09704e;
+}
